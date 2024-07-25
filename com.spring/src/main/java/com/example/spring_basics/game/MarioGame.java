@@ -11,7 +11,11 @@ public class MarioGame implements GamingConsole {
         System.out.println("left");
     }
 
+    public MarioGame() {
+    }
+
     public void right(){
         System.out.println("right");
     }
+
 }
